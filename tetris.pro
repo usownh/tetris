@@ -5,7 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
-
+QT += widgets
 TARGET = tetris
 TEMPLATE = app
 

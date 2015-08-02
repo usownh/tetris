@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+ï»¿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     scene = new TetrisScene;
-    ui->graphicsView->setRenderHint(QPainter::Antialiasing,true);  //¿ª¿¹¾â³Ý
+    ui->graphicsView->setRenderHint(QPainter::Antialiasing,true);  //å¼€æŠ—é”¯é½¿
     scene->setSceneRect(0,0,200,390);
     ui->graphicsView->setScene(scene);
     ui->centralWidget->setFocusPolicy(Qt::StrongFocus);
